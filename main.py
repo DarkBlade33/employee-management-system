@@ -1,6 +1,5 @@
 from tkinter import ttk, messagebox
 import tkinter as tk
-from tkinter.font import BOLD
 from databaseMod import databaseClass
 
 
@@ -134,7 +133,7 @@ buttonFrame.columnconfigure(0, weight=1)
 buttonFrame.columnconfigure(1, weight=1)
 buttonFrame.columnconfigure(2, weight=1)
 
-addButton = tk.Button(buttonFrame, text="Add new employee", font=("Calibri", 16,BOLD), width=20, bg="black", fg="white", command=add_employee)
+addButton = tk.Button(buttonFrame, text="Add new employee", font=("Calibri", 16,"bold"), width=20, bg="black", fg="white", command=add_employee)
 addButton.grid(row=0, column=0, padx=10, pady=10)
 
 delButton = tk.Button(buttonFrame, text="Delete employee", font=("Calibri", 16,"bold"), width=20, bg="black", fg="white", command=del_employee)
