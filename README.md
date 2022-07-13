@@ -1,1 +1,1 @@
-# school-management-system
+# employee-management-system
